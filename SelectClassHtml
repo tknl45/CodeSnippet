@@ -1,0 +1,7 @@
+	// 取得有 .questions-container 類別的元素
+	var copyArea = document.querySelector(".questions-container")
+	var range = document.createRange();	
+	range.selectNode(copyArea);	
+	// 選取裡面的文字
+	window.getSelection().addRange(range);
+	
